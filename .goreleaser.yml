@@ -11,13 +11,10 @@ builds:
     - darwin
     - windows
   goarch:
-    - 386
     - amd64
     - arm
     - arm64
   ignore:
-    - goos: darwin
-      goarch: 386
     - goos: darwin
       goarch: arm
     - goos: windows
@@ -53,3 +50,4 @@ archives:
       - README-zh_CN.md
       - SECURITY.md
       - plugin/**/*.lua
+      - example/**/*.js
